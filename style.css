@@ -1,79 +1,64 @@
   @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Raleway:wght@100;500;600;800&display=swap');
 
-  /*обнуляем*/
-  * {
-      margin: 0;
+  
+  
+  
+  #brazil {
+      background-image: url(./images/brazil_18295.png);
+      background-repeat: no-repeat;
+      background-position: calc(10% - 0.5em) calc(10% - 1.5em);
+      background-size: 3em
   }
 
-  body {
+  #colombia {
+      background-image: url(./images/colombia_18292.png);
+      background-repeat: no-repeat;
+      background-position: calc(10% - 1.0em) calc(10% - 1.5em);
+      background-size: 3em
+  }
+
+  #india {
+      background-image: url(./images/india_18180.png);
+      background-repeat: no-repeat;
+      background-position: calc(10% - 0.5em) calc(10% - 1.5em);
+      background-size: 3em
+  }
+
+  #ethiopia {
+      background-image: url(./images/ethiopia_18203.png);
+      background-repeat: no-repeat;
+      background-position: calc(10% - 0.5em) calc(10% - 1.7em);
+      background-size: 3em
+  }
+
+  #kenya {
+      background-image: url(./images/kenya_18167.png);
+      background-repeat: no-repeat;
+      background-position: calc(10% - 0.5em) calc(10% - 1.7em);
+      background-size: 3em
+  }
+
+  #costa{
+      background-image: url(./images/costa_rica_18291.png);
+      background-repeat: no-repeat;
+      background-position: calc(10% - 1.3em) calc(10% - 1.7em);
+      background-size: 3em
+  }
+  .container-fluid {
       font-family: 'Raleway', sans-serif;
       font-weight: 500;
-      background-color: antiquewhite;
+      background-color: bisque;
   }
 
-  .header {
-      height: 400px;
-      background-image: url("../03-css-coffee/images/coffee-bgnd.jpeg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      margin-bottom: 1px;
-      background-color: whitesmoke;
-      /* покрыть всю ширину*/
+  .border {
+    text-decoration: none;
+    color: rgb(100, 32, 7);
   }
 
+  p {
+      text-indent: 2em;
+  }
 
   h1 {
-      font-size: 100px;
       font-family: 'Covered By Your Grace', cursive;
-      color: rgba(30, 50, 100, 0.75);
-      /*a - прозрачность*/
-      text-align: center;
-      padding-top: 132.5px;
   }
-
-  .main>ul {
-      list-style: none;
-      padding: 0px;
-      background-color: antiquewhite;
-  }
-
-  .main li {
-      margin: 50px 0;
-      border-bottom: 1px solid #e4bb97;
-      padding-bottom: 5px;
-  }
-
-  .main li>h2 {
-      font-weight: 800;
-      font-size: 28px;
-      background-color: #aa8eb5;
-      text-align: center;
-      text-transform: uppercase;
-  }
-
-  .main li>p {
-      color: #444444;
-      font-size: 20px;
-      text-align: justify;
-      text-indent: 32px;
-      line-height: 1.5;
-      padding: 0 10px;
-  }
-  .main li>a{
-    color: #214e34;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding-left: 10px;
-    text-decoration: none;  /*убрать линию*/
-    letter-spacing: 2px;
-  }
-  .main{width: 900px; position: absolute;}
-  .left{left: 1%; position: absolute;}
-  .right{width: 930px; left: 101%; position: absolute;}
-  .brazil{list-style-image: url(images/brazil_18295.png); list-style-position: inside;}
-  .colombia{list-style-image: url(images/colombia_18292.png); list-style-position: inside;}
-  .india{list-style-image: url(images/india_18180.png); list-style-position: inside;}
-  .ethiopia{list-style-image: url(images/ethiopia_18203.png); list-style-position: inside;}
-  .costarica{list-style-image: url(images/costa_rica_18291.png); list-style-position: inside;}
-  .kenya{list-style-image: url(images/kenya_18167.png); list-style-position: inside;}
